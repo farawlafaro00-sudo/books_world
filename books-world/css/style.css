@@ -1,0 +1,641 @@
+body{
+    background-color: antiquewhite;
+}
+
+/* nav section  */
+
+.logo{
+   font-weight: bold;
+   font-family: fantasy;
+   font-style: oblique;
+   font-size: 30px;
+   
+    margin-left: 450px;
+}
+.gradient-text {
+    background: linear-gradient(to bottom, #a75b14, #5b3800);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.search{
+    background-color: antiquewhite;
+    border: 3px solid #5a3a1a;
+    margin-left: 380px;
+    height: 35px;
+    margin-top: 1%;
+
+    border-radius: 50px;
+    outline: none;
+    
+}
+.bt-search{
+    background-color: #5a3a1a;
+    color: antiquewhite;
+    height:35px;
+    border-radius: 50px;
+
+}
+.bt-search:hover{
+    background-color: #4a2e1f;
+    color: white;
+}
+
+
+.nav-2{
+    background-color: #763f0c;
+    
+}
+
+.main{
+    margin-left: 10%;
+}
+
+.li2{
+
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: initial;
+    margin-left: 130px;
+    
+
+}
+
+.nav-2 .li2.active {
+    background-color: #763f0c !important;
+    color: antiquewhite !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.nav-2 .li2:hover {
+    background-color: antiquewhite !important;
+    color: #763f0c !important;
+    border-radius: 5%;
+}
+
+
+
+ /* start index page =================================== */
+
+/* slider section  */
+
+
+.slider-box {
+    position: relative;
+    height: 350px;
+    
+   
+    overflow: hidden;
+}
+
+.slider-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+
+}
+
+
+.slider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #f1e3d3;
+ 
+    font-family: "Cairo", sans-serif;
+}
+
+.slider-text h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #763f0c;
+    background: antiquewhite;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+.slider-text p {
+    margin-top: 10px;
+    font-size: 18px;
+    background: #763f0c;
+    color: antiquewhite;
+    padding: 6px 15px;
+    border-radius: 8px;
+}
+
+
+/* animation section  */
+
+
+.real-book {
+    width: 450px;
+    height: 320px;
+    margin: 80px auto;
+    position: relative;
+    perspective: 1500px;
+}
+
+
+.cover {
+    width: 100%;
+    height: 100%;
+    background: url('../images/القربان.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform-origin: left;
+    z-index: 5;
+    animation: openClose 5s ease-in-out infinite;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+
+.pages {
+    width: 100%;
+    height: 100%;
+    background: #fff7e1;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.page {
+    padding: 25px;
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+}
+.page h2{
+    color: #763f0c;
+    font-family: fantasy;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.page p{
+    color: #4a2e1f;
+    text-align: right;
+    line-height: 3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page span{
+
+    color: #763f0c;
+        font-family: fantasy;
+        font-weight: bold;
+        float: left;
+
+        
+}
+
+@keyframes openClose {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+   
+    40% {
+        transform: rotateY(-140deg);
+    }
+
+   
+    60% {
+        transform: rotateY(-140deg);
+    }
+
+   
+    100% {
+        transform: rotateY(0deg);
+    }
+
+   
+}
+
+
+
+
+/* banner section  */
+
+
+
+.container{
+
+    width: 2700px;
+    height: 500px;
+    background-color: #4a2e1f;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    border-radius: 10%;
+
+}
+
+
+.pixel{
+    width:500px;
+    height: 550px;
+    margin-left: 20%;
+}
+
+.heading_container h2{
+    font-weight: bold;
+    font-family: fantasy;
+    font-style: italic;
+    color: rgb(217, 188, 151);
+    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+
+.detail-box p{
+    font-weight: bold;
+       line-height: 3;
+        color: antiquewhite;
+        margin-top: 9%;
+        margin-bottom: 5%;
+        margin-left: 20%;
+        text-align: right;
+}
+
+.gradient-text2 {
+    background: linear-gradient(to bottom, #fdb202, #df8e0c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* cards section  */
+
+
+.products-wrapper {
+    display: inline-block;
+   
+    
+   
+   
+}
+
+
+.product-card {
+    width: 260px;
+    height: 350px;
+    margin-left: 200px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: #f7f1e7;
+    border-radius: 15px;
+    overflow: hidden ;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e6d9c6;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image img {
+    width: 100%;
+    height:200px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 15px;
+    text-align: center;
+    
+}
+
+
+
+.product-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4a2e1f;
+    margin-bottom: 10px;
+}
+
+
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4a2e1f;
+    margin-bottom: 12px;
+}
+
+.product-btn {
+    width: 100%;
+    padding: 10px;
+    background: #4a2e1f;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.product-btn:hover {
+    background: #6e4b35;
+}
+
+
+/* about section  */
+
+
+
+.about-section {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    gap: 30px;
+    background: #f7f1e7;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.about-content {
+    flex: 1;
+    padding: 0 20px;
+    text-align: right;
+}
+
+.about-content h2 {
+    font-size: 32px;
+    font-family: fantasy;
+    font-weight: bold;
+    color: #763f0c;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.about-content h2::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 87%;
+    width: 100px;
+    height: 4px;
+    background: #763f0c;
+    border-radius: 2px;
+}
+
+.about-content p {
+    color: #6e4b35;
+    font-size: 20px;
+    line-height: 1.8;
+
+    
+    margin-bottom: 12px;
+}
+
+
+.about-img img {
+    width: 200px;
+    height: 200px;
+    margin-left: 10%;
+    margin-top: -7%;
+    
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
+.about-img img:hover {
+    transform: scale(1.03);
+}
+.about{
+    display: flex;
+        flex-direction: column;
+        gap: 15px;
+}
+.social{
+    color: #763f0c;
+    margin-left: 70px;
+    margin-bottom: 3%;
+    
+    
+}
+
+/* end index page ===================================================== */
+
+
+/* start books page ==================================================================== */
+
+
+
+/* cards section  */
+
+
+.books-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+}
+
+
+.books-card {
+    width: 280px;
+    background: #fff7e8;
+    border: 1px solid #deb887;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.books-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.imgs-box {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.books-card .book_name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #8b5a2b;
+    text-align: center;
+}
+
+
+.books-card .book_desc {
+    max-height: 60px;
+    overflow-y: auto;
+    padding-right: 5px;
+    font-size: 14px;
+    color: #8b5a2b;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+
+.books-card p {
+    color: #5a3a1a;
+   text-align: center;
+    font-size: 15px;
+}
+
+
+.detail-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background: #8b5a2b;
+    color: white;
+    text-decoration: none;
+    
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.detail-btn:hover {
+    background: #5a3a1a;
+    color: white;
+}
+
+/* end books page ===================================== */
+
+/* start details page ==================================== */
+
+.details-container {
+    max-width: 1100px;
+    height: 600px;
+    margin: 50px auto;
+    background: #fff7e8;
+    border: 1px solid #deb887;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+
+    display: flex;
+    gap: 25px;
+}
+
+
+.img-box {
+    width: 40%;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #deb887;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-box {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-box h1 {
+    margin: 0 0 15px;
+    color: #fff7e8;
+    font-size: 32px;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bold;
+    background-color: #5a3a1a;
+    border-radius: 50%;
+}
+
+.info {
+    font-size: 18px;
+    margin-top: 2%;
+    color: #6e4b35;
+    text-align: right;
+
+}
+
+.desc {
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    line-height: 1.8;
+    font-size: 17px;
+    color: #8b5a2b;
+    border: 1px solid #deb887;
+    text-align: right;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 16px;
+    background: #8b5a2b;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    width: 180px;
+    transition: 0.3s;
+    font-size: 16px;
+    margin-left: 30%;
+    font-weight: bold;
+    
+}
+
+.btn-back:hover {
+    background: #5a3a1a;
+    color:white ;
+}
+
+
+@media (max-width: 768px) {
+    .details-container {
+        flex-direction: column;
+    }
+
+    .img-box,
+    .info-box {
+        width: 100%;
+    }
+}
+
+
+
